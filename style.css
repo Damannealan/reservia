@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body
 {
     margin:0%;
@@ -349,4 +350,365 @@ main
 .footerLink:visited
 {
   color: #000000;
+=======
+body
+{
+    margin:0%;
+    padding:0%;
+    width:100%;
+}
+.firstHeader
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+}
+.headerImg {
+    padding: 20px;
+    height: 2.813rem;
+}
+.headerNav
+{
+    display: flex;
+    justify-content: space-between;
+}
+.headerNavLink, .headerNavLink2 {
+    padding: 2rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  .headerNavLink{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+  }
+  .headerNavLink2:visited {
+    color: #000000;
+  }
+  .headerSignup {
+    padding: 2rem;
+    color: #0065FC;
+    font-weight: 600;
+  }
+  
+main
+{
+  padding: 20px;
+}
+.searchHeaderTitle
+{
+  font-size: 25px;
+}
+.searchFormSearchinput {
+  border: #F2F2F2 1px solid;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+  width: 14rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Raleway", "Sans serif";
+}
+.searchFormSubmitinput
+{
+  background-color: #0065FC;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
+  padding: 0 1.5rem;
+  font-family: "Raleway", "Sans serif";
+  font-size: 1rem;
+  cursor: pointer;
+}
+.searchClass
+{
+  display: inline-flex;
+}
+.searchClass img
+{
+  background-color: #F3F3F3;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+}
+.searchFiltersTitle
+{
+  font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+}
+.searchFilters
+{
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.searchFilters
+{
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition-duration: 0.1s;
+  font-weight: bold;
+}
+.searchFiltersTitle
+{
+  border: none;
+  margin-right: 2rem;
+}
+.searchIcon
+{
+  color: blue; 
+  background-color: #DEEBFF;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 -2px;
+}
+.searchFilters p
+{
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  border: 2px solid #d9d9d9;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition-duration: 0.1s;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.searchInfoIcon
+{
+    color: blue;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchInfo
+{
+  display: flex;
+}
+.hostingMain
+{
+  display: flex;
+    margin: 10px 0;
+}
+.hostingMainOffers
+{
+  display: flex;
+  background-color: #f2f2f2;
+    max-width: 950px;
+    padding: 40px 0;
+    margin-right: 20px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+.hostingMainOffersFigureJpg
+{
+  width: 100%;
+    height: 114px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.hostingMainOffersFigure
+{
+  background-color: white;
+    border-radius: 10px;
+    width: 24%
+}
+.hostingMainOffersStar
+{
+  color: #0065fc;
+}
+.hostingMainOffersStarEmpty
+{
+  color: #F2F2F2
+}
+.hostingPopular
+{
+  width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    padding: 40px 20px 0 20px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+.hostingPopularJpg
+{
+  width: 127px;
+    height: 134px;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.hostingPopular h2
+{
+  font-size: 1.25rem;
+    margin: 0;
+}
+.hostingPopular h3
+{
+  padding-left: 12px;
+    margin: 2px 0 0 0;
+  padding-right: 12px;
+}
+.hostingPopularOffersDescription
+{
+  margin-bottom: 15%;
+  padding-left: 12px;
+}
+.hostingPopularOffers
+{
+  background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%);
+    display: flex;
+    width: 334px;
+    height: 134px;
+    padding: 5px;
+}
+.hostingPopularOffersStar
+{
+  padding-left: 12px;
+}
+.hostingMainHeader
+{
+  position: absolute;
+    margin-top: -23px;
+    padding-left: 30px;
+}
+.hostingMainViewmore
+{
+  padding-left: 31px;
+    padding-top: 20px;
+}
+.hostingMainViewmore:visited
+{
+  color: #000000;
+}
+.activity
+{
+  display: grid;
+    column-gap: 2rem;
+    margin: 4rem 0;
+}
+.activityTitle
+{
+  display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.activityOffers1
+{
+  grid-row: 2/7;
+    grid-column: 1/2;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;  
+}
+.activityOffers2
+{
+  grid-column: 2/3;
+    grid-row: 2/5;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.activityOffers4
+{
+  grid-column: 3/4;
+    grid-row: 2/7;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.activityOffers5
+{
+  grid-column: 4/5;
+    grid-row: 2/3;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.activityOffers3
+{
+  grid-column: 2/3;
+    grid-row: 6/7;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.activityOffers6
+{
+  grid-column: 4/5;
+    grid-row: 4/7;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.activityJpg
+{
+    flex: 1;
+    width: 100%;
+    object-fit: cover;
+}
+.activityFigureCaption h3
+{
+  margin: 1.2rem 1.5rem;
+}
+.footerDiv
+{
+  display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+.footerInfo
+{
+  width: 30%;
+    padding: 2rem 2rem;
+}
+.footerLink
+{
+  display: block;
+    margin: 1rem 0;
+}
+.footerLink:visited
+{
+  color: #000000;
+>>>>>>> d9143678344ff51c657c0dba8216bac37e0079cc
 }
