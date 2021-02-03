@@ -80,10 +80,6 @@ main
 .searchFiltersTitle
 {
   font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; 
 }
 .searchFilters
 {
@@ -233,6 +229,21 @@ main
 {
   padding-left: 12px;
 }
+.hostingMainHeader
+{
+  position: absolute;
+    margin-top: -23px;
+    padding-left: 30px;
+}
+.hostingMainViewmore
+{
+  padding-left: 31px;
+    padding-top: 20px;
+}
+.hostingMainViewmore:visited
+{
+  color: #000000;
+}
 .activity
 {
   display: grid;
@@ -243,10 +254,6 @@ main
 {
   display: block;
     font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
 }
 .activityOffers1
@@ -269,7 +276,7 @@ main
     display: flex;
     flex-direction: column;
 }
-.activityOffers3
+.activityOffers4
 {
   grid-column: 3/4;
     grid-row: 2/7;
@@ -279,7 +286,7 @@ main
     display: flex;
     flex-direction: column;
 }
-.activityOffers4
+.activityOffers5
 {
   grid-column: 4/5;
     grid-row: 2/3;
@@ -289,7 +296,7 @@ main
     display: flex;
     flex-direction: column;
 }
-.activityOffers5
+.activityOffers3
 {
   grid-column: 2/3;
     grid-row: 6/7;
@@ -313,8 +320,33 @@ main
 {
     flex: 1;
     width: 100%;
+    object-fit: cover;
 }
 .activityFigureCaption h3
 {
   margin: 1.2rem 1.5rem;
+}
+.footerDiv
+{
+  display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+.footerInfo
+{
+  width: 30%;
+    padding: 2rem 2rem;
+}
+.footerLink
+{
+  display: block;
+    margin: 1rem 0;
+}
+.footerLink:visited
+{
+  color: #000000;
 }
