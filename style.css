@@ -147,10 +147,6 @@ main
 {
   display: flex;
 }
-.hosting2
-{
-    max-height: 630px;
-}
 .hostingMain
 {
   display: flex;
@@ -216,10 +212,12 @@ main
 {
   padding-left: 12px;
     margin: 2px 0 0 0;
+  padding-right: 12px;
 }
 .hostingPopularOffersDescription
 {
-  margin-bottom: 25%;
+  margin-bottom: 15%;
+  padding-left: 12px;
 }
 .hostingPopularOffers
 {
@@ -230,4 +228,133 @@ main
     width: 334px;
     height: 134px;
     padding: 5px;
+}
+.hostingPopularOffersStar
+{
+  padding-left: 12px;
+}
+.hostingMainHeader
+{
+  position: absolute;
+    margin-top: -23px;
+    padding-left: 30px;
+}
+.hostingMainViewmore
+{
+  padding-left: 31px;
+    padding-top: 20px;
+}
+.hostingMainViewmore:visited
+{
+  color: #000000;
+}
+.activity
+{
+  display: grid;
+    column-gap: 2rem;
+    margin: 4rem 0;
+}
+.activityTitle
+{
+  display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.activityOffers1
+{
+  grid-row: 2/7;
+    grid-column: 1/2;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;  
+}
+.activityOffers2
+{
+  grid-column: 2/3;
+    grid-row: 2/5;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.activityOffers4
+{
+  grid-column: 3/4;
+    grid-row: 2/7;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.activityOffers5
+{
+  grid-column: 4/5;
+    grid-row: 2/3;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.activityOffers3
+{
+  grid-column: 2/3;
+    grid-row: 6/7;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.activityOffers6
+{
+  grid-column: 4/5;
+    grid-row: 4/7;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.activityJpg
+{
+    flex: 1;
+    width: 100%;
+    object-fit: cover;
+}
+.activityFigureCaption h3
+{
+  margin: 1.2rem 1.5rem;
+}
+.footerDiv
+{
+  display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+.footerInfo
+{
+  width: 30%;
+    padding: 2rem 2rem;
+}
+.footerLink
+{
+  display: block;
+    margin: 1rem 0;
+}
+.footerLink:visited
+{
+  color: #000000;
 }
